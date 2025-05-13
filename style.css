@@ -1,0 +1,26 @@
+.Heading {
+    background-color:greenyellow;
+    color: black;
+}
+
+body {
+    background-color: black;
+    color: azure;
+}
+
+.Image1 {
+    width: 600px;
+}
+
+.pro1 {
+    width: 1300px;
+}
+
+.pro2 {
+    width: 900px;
+    height: 800px;
+}
+
+.linkedin {
+    width: 800px;
+}
