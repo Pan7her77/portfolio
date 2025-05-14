@@ -77,3 +77,29 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    cursor: none; /* Hide the default cursor */
+  }
+  
+  .custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00ffcc;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    z-index: 10000;
+  }
+
+  .custom-cursor.grow {
+    transform: scale(2);
+  }
+
+  body {
+    cursor: none;
+  }
+  
