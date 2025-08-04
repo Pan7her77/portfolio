@@ -1,73 +1,135 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Ayomide_Olayori - Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayomide Olayori - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <div class="custom-cursor"></div>
-        <div class="Heading">
-        <h1>Ayomide Olayori</h1>
-        </div>
+<body>
+    <div class="custom-cursor"></div>
 
-        <nav class="navbar">
-            <!-- <div class="top">
-                <a href="index.html">Ayomide</a>
-            </div> -->
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Ayomide</a>
             <ul class="nav-links">
-                <li><a href="#Heading" class="active">Home</a></li>
-                <li><a href="#Lore-tab">Lore</a></li>
-                <li><a href="#Projects">What I've built</a></li>
-                <li><a href="#Skill-tree">Key abilities</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#lore">Lore</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
-        <img src="./resources/IMG_3587.jpg" class="Image1" alt="Image of Ayomide">
-        
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-greeting">Hello, I'm</div>
+                    <h1 class="hero-title">Ayomide Olayori</h1>
+                    <p class="hero-subtitle">Front-End Developer, Creative, and overall Nerd</p>
+                </div>
+                <div class="hero-image">
+                    <img src="./resources/IMG_3587.jpg" alt="Ayomide Olayori" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!--Summary-->
-        <section id="Lore-tab" class="Lore_tab">
-            <h2>Lore</h2>
-            <p>Hi my name is Ayomide Olayori, a Full Stack Developer from Victoria, British Caolumbia. I am a recent Communication Media and Film graduate from the University of Windsor and upon graduating decided to have a carrer refocus towards computer programming and AI.</p>
-        </section>
+    <!-- Lore Section -->
+    <section id="lore">
+        <div class="container">
+            <div class="lore fade-in">
+                <h2 class="section-title">Lore</h2>
+                <p class="lore-text">
+                    Passionate about creating digital experiences that blend creativity with functionality. 
+                    I love turning complex problems into simple, beautiful, and intuitive solutions.
+                </p>
+            </div>
+        </div>
+    </section>
 
-        <!--Projects section-->
-        <section id="Projects" class="projects">
-            <h2>What I've built</h2>
-            <ul>
-                <li>Random Wisdom Generator</li>
-                    <p>A Javascript project that generates random quotes from three prominent philosophers</p>
-                    <img src="./resources/Screenshot 2025-05-10 at 1.17.18 am.png" class="pro1">
-                <li>Mystery Organism simulation and analysis code.</li>
-                    <p>A Javascript project that simulates DNA with unusual properties for studying and comparision with other DNA.</p>
-                    <h3>Code snippet</h3>
-                    <img src="./resources/Screenshot 2025-05-10 at 1.03.53 am.png" class="pro2">
-            </ul>
-        </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">What I've Built</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <h3 class="project-title"><a href="https://pan7her77.github.io/project-lychem/">Random Wisdom Generator</a></h3>
+                    <p class="project-description">
+                        A JavaScript project that generates random quotes from three prominent philosophers, 
+                        designed to inspire and provoke thought.
+                    </p>
+                    <img src="./resources/Screenshot 2025-07-06 at 11.57.37 pm.png" alt="Random Wisdom Generator" class="project-image">
+                </div>
+                
+                <div class="project-card fade-in">
+                    <h3 class="project-title"><a href="https://github.com/Pan7her77/mystery_organism">Mystery Organism Simulation</a></h3>
+                    <p class="project-description">
+                        A JavaScript project that simulates DNA with unusual properties for studying 
+                        and comparison with other DNA sequences.
+                    </p>
+                    <img src="./resources/Screenshot 2025-05-10 at 1.03.53 am.png" alt="Mystery Organism Code" class="project-image">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!--Skill Section-->
-        <section id="Skill-tree" class="skill_tree">
-            <h2>Key abilities</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Terminal</li>
-                <li>Node</li>
-                <li>Python</li>
-                <li>Chrome</li>
-            </ul>
-        </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Key Abilities</h2>
+            <div class="skills-grid">
+                <div class="skill-item fade-in">
+                    <div class="skill-name">HTML</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">CSS</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">Git</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">GitHub</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">Terminal</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">Node.js</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">Python</div>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-name">Chrome DevTools</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!--Contacts section-->
-        <section id="Contacts" class="contact">
-            <h2>Contacts</h2>
-            <a href="https://www.linkedin.com/in/ayomide-olayori-130559226/" class="linkedin"><img src="./resources/link.webp" alt="linkedin profile"></a>
-            <a href="https://github.com/Pan7her77" class="github"><img src="./resources/github.webp" alt="github profile"></a>
-        </section>
-    </body>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/ayomide-olayori-130559226/" class="contact-link" target="_blank">
+                    <img src="./resources/link.webp" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Pan7her77" class="contact-link" target="_blank">
+                    <img src="./resources/github.webp" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
