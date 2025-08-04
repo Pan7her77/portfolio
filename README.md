@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases my coding projects
 
 ## 🌐 Live Demo
 
-> 🔗 [Visit the Live Portfolio](file:///Users/ayomideolayori/Desktop/codeacademy/portfolio/index.html#hero)
+> 🔗 [Visit the Live Portfolio](///Users/ayomideolayori/Desktop/codeacademy/portfolio/index.html#hero)
 
 ## 🚀 Features
 
